@@ -8,6 +8,7 @@ import {
 } from "../predictions/predictionstore";
 
 export type Exercise = SavedThought | Checkup;
+console.log("Hello World!")
 
 export interface ExerciseGroup {
   date: string;
